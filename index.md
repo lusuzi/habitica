@@ -1,18 +1,13 @@
-## [HOME](../index.md)
+## 游戏记录
 
-### 10月15日
-
-![](https://cdn.jsdelivr.net/gh/lusuzi/habitica/202010/images/15.png)
-
-目前角色血量不够，快要死了，得赶紧升级。
-
-暗影狐狸明天就可以驯养为坐骑。
+[2020年10月](202010/README.md)
 
 
 
-设置全新策略，使得 [Github](https://github.com/) 各功能与 [Habitica](https://habitica.com/) 各功能环环相扣。
+##  程序源码
 
 ``` python
+# pseudo-code of the action in Python
 import Github, Habitica
 from LuSuZi import break_down, simplify, just_do_it
 
