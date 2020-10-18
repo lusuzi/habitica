@@ -8,30 +8,23 @@
 
 暗影狐狸明天就可以驯养为坐骑。
 
-
-
 设置全新策略，使得 [Github](https://github.com/) 各功能与 [Habitica](https://habitica.com/) 各功能环环相扣。
 
-``` python
-import Github, Habitica
-from LuSuZi import break_down, simplify, just_do_it
+### 10月17日
 
-while Alive('LuSuZi'):
-    habits, tasks, todos = Habitica.output()
-    for i in habits + tasks + todos:
-        just_do_it(i)
-        Habitica.reward()
-    
-    habits = Habitica.habit()
-    tasks = Habitica.task()
-    
-    goal = Github.project()
-    issues = break_down(goal)
-    todos = simplify(issues)
-    
-    Github.time.record()
-    Github.time.set(Habitica, habits, tasks, todos)
-    
-    day = day + 1
-```
+![](https://cdn.jsdelivr.net/gh/lusuzi/habitica/202010/images/17.png)
+
+虽然这两天升了1级，但这两天表现非常糟糕，目前的情况更危险。
+
+暗影狐狸已经驯养成了坐骑，目前宠物就用老虎吧。
+
+![](https://cdn.jsdelivr.net/gh/lusuzi/habitica/202010/images/17-1.png)
+
+副本估计明天就可以打掉，我还有两个新副本等待开启，前提是暂时不那么危险。
+
+![](https://cdn.jsdelivr.net/gh/lusuzi/habitica/202010/images/17-2.png)
+
+目前蛋和孵化药水挺多，但目前没有获得很好的宠物蛋，孵化药水先留着吧。
+
+后面得努力了。
 
